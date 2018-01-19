@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MytTestApplication</string>
+
+    <string name="main_layout_btnpay_name">3交易</string>
+    <string name="main_layout_btnlook_name">4查看</string>
+    <string name="main_layout_btnchexiao_name">5撤销</string>
+    <string name="title_activity_pay">6PayActivity</string>
+
+
+</resources>

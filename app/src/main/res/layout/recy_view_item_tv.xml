@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/recy_view_item_tv1"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#ffa">
+
+    </TextView>
+    <Button
+        android:id="@+id/recy_view_item_btn1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="add"
+        />
+    <Button
+        android:id="@+id/recy_view_item_btn2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="remove"
+        />
+</LinearLayout>
