@@ -187,10 +187,25 @@ public class MainActivity extends AppCompatActivity {
                 intent = intent.setClass(this,BitmapIOActivity.class);
                 startActivity(intent);
                 break;
+            case R.id.btn19://Bitmap 复习流知识  持续。。。
+                intent = intent.setClass(this,GradLayoutActivity.class);
+                startActivity(intent);
+                break;
         }
 
     }
-
+    @Override
+    protected void onNewIntent(Intent intent) {
+        super.onNewIntent(intent);
+        if (intent != null) {
+            // 是否退出App的标识
+            boolean isExitApp = intent.getBooleanExtra("exit", false);
+            if (isExitApp) {
+                // 关闭自身
+                this.finish();
+            }
+        }
+    }
     //退出时的时间
     private long mExitTime;
     //对返回键进行监听
